@@ -13,8 +13,21 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url("./images/FBG.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
 .container {
   display: flex;
   justify-content: center;
+}
+
+.figma {
+  background-image: element();
 }
